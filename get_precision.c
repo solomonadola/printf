@@ -1,4 +1,4 @@
-#i:include "main.h"
+#include "main.h"
 /**
  * get_precision - Calculates precision for printing
  * @format: Formatted string in which to print the arguments
@@ -30,7 +30,6 @@ break;
 else
 break;
 }
-OA
 *i = curr_i - 1;
 return (precision);
 }
